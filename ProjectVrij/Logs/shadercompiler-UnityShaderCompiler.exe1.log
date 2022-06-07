@@ -216,3 +216,5 @@ Cmd: compileComputeKernel
 
 Cmd: initializeCompiler
 
+Cmd: initializeCompiler
+
