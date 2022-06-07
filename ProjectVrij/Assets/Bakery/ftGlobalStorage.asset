@@ -400,7 +400,33 @@ MonoBehaviour:
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
-  uvOverlapAssetList: 00000000ffffffff
+  - Assets/Cave/Cave.fbx
+  - Assets/Cave/Cave2.fbx
+  - Assets/Cave/CaveBendLeft.fbx
+  - Assets/Cave/CaveBendRight.fbx
+  - Assets/Cave/CaveHallway.fbx
+  - Assets/Cave/CaveHallwayCrooked.fbx
+  - Assets/Cave/CaveHallwayCrossing.fbx
+  - Assets/Cave/Prefabs/CaveHallway.fbx
+  - Assets/Cave/Prefabs/CaveHallwayCrossing.fbx
+  - Assets/Cave/Prefabs/CaveHallway 1.fbx
+  - Assets/Cave/Prefabs/CaveHallwayCrooked.fbx
+  - Assets/Cave/Prefabs/DontUSe.fbx
+  - Assets/Cave/Prefabs/CaveCrawl.fbx
+  - Assets/Cave/Prefabs/CaveCrawl 1.fbx
+  - Assets/Cave/Prefabs/CaveBendLeft.fbx
+  - Assets/Cave/Prefabs/CaveBendRight.fbx
+  - Assets/Cave/Prefabs/CaveCrossing.fbx
+  - Assets/CaveBendLeft.fbx
+  - Assets/gatePVasset2.fbx
+  - Assets/gatePVasset2 1.fbx
+  - Assets/CavePrefabs/Prefabs/CaveCrawl.fbx
+  - Assets/CavePrefabs/Prefabs/CaveCrossing.fbx
+  - Assets/CavePrefabs/Prefabs/CaveHallwayCrossing.fbx
+  - Assets/CavePrefabs/CaveCrossing.fbx
+  - Assets/CavePrefabs/Prefabs/CaveHallway.fbx
+  - Assets/CavePrefabs/Prefabs/CaveHallwayCrooked.fbx
+  uvOverlapAssetList: 00000000ffffffff0000000000000000000000000000000000000000010100000101000000000000010100000000000000000000010100000101000001010000000000000000000001010000000000000101000001010000010100000101000001010000010100000000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3080
