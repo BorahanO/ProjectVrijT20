@@ -14,8 +14,8 @@ public class FlashlightMech : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(isOn);
-        Debug.Log(failSafe);
+        
+
         if (Input.GetKeyDown(KeyCode.F))
         {
             
