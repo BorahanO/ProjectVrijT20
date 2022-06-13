@@ -426,7 +426,19 @@ MonoBehaviour:
   - Assets/CavePrefabs/CaveCrossing.fbx
   - Assets/CavePrefabs/Prefabs/CaveHallway.fbx
   - Assets/CavePrefabs/Prefabs/CaveHallwayCrooked.fbx
-  uvOverlapAssetList: 00000000ffffffff0000000000000000000000000000000000000000010100000101000000000000010100000000000000000000010100000101000001010000000000000000000001010000000000000101000001010000010100000101000001010000010100000000000000000000
+  - Assets/CavePrefabs/Prefabs/CaveFloor.fbx
+  - Assets/CavePrefabs/Prefabs/CaveCrossing 1.fbx
+  - Assets/CavePrefabs/Prefabs/CaveCrawl 1.fbx
+  - Assets/CavePrefabs/Prefabs/CaveHallway2.fbx
+  - Assets/CavePrefabs/Prefabs/CaveHallway3.fbx
+  - Assets/CavePrefabs/Prefabs/CaveBendLeft2.fbx
+  - Assets/CavePrefabs/Prefabs/CaveBendRight2.fbx
+  - Assets/CavePrefabs/Prefabs/CaveBendRight.fbx
+  - Assets/CavePrefabs/Prefabs/CaveCrawl2.fbx
+  - Assets/CavePrefabs/Prefabs/CaveCrossing2.fbx
+  - Assets/CavePrefabs/Prefabs/CaveBendLeft2 1.fbx
+  - Assets/CavePrefabs/Prefabs/CaveBendLeft.fbx
+  uvOverlapAssetList: 00000000ffffffff0000000000000000000000000000000000000000010100000101000000000000010100000000000000000000010100000101000001010000000000000000000001010000000000000101000001010000010100000101000001010000010100000000000000000000000000000101000001010000000000000000000000000000000000000000000001010000010100000000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3080
