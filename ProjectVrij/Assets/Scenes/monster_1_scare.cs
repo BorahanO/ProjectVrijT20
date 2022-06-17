@@ -48,7 +48,7 @@ public class monster_1_scare : MonoBehaviour
         anim.SetInteger("battle", 1);
 
 
-        moveDirection.y -= gravity * Time.deltaTime;
+        moveDirection.y += gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
 
         if (isTriggered)
