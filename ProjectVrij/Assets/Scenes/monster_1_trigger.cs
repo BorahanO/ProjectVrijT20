@@ -5,6 +5,7 @@ using UnityEngine;
 public class monster_1_trigger : MonoBehaviour
 {
     public monster_1_scare script;
+    public bool has_triggered = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +20,12 @@ public class monster_1_trigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Name of the object: " + other.gameObject.name);
-        script.isTriggered = true;
+        if (!has_triggered)
+        {
+            //Debug.Log("Name of the object: " + other.gameObject.name);
+            script.isTriggered = true;
+            has_triggered = true;
+        }
 
     }
 }
