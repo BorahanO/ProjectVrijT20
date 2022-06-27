@@ -32,6 +32,9 @@ public class monster_2_scare : MonoBehaviour
     public GameObject flash_camera;
     public GameObject player;
 
+    public Animator monster_walk;
+    public Animation monster_walk_anim;
+
 
 
     // Use this for initialization
@@ -55,6 +58,8 @@ public class monster_2_scare : MonoBehaviour
         flash_camera.SetActive(false);
         player.SetActive(true);
 
+        monster_walk.SetBool("has_triggered_anim", false);
+
     }
 
 
@@ -63,13 +68,14 @@ public class monster_2_scare : MonoBehaviour
     {
         anim.SetInteger("battle", 1);
 
-
         moveDirection.y -= gravity * Time.deltaTime;
-        controller.Move(moveDirection * Time.deltaTime);
+        //controller.Move(moveDirection * Time.deltaTime);
 
         if (isTriggered)
         {
             moveDirection = transform.forward * speed * runSpeed;
+            monster_walk.SetBool("has_triggered_anim", true);
+            monster_walk.SetTrigger("box");
             anim.SetInteger("moving", 1);//walk/run/moving
 
             scare_sound.Play();

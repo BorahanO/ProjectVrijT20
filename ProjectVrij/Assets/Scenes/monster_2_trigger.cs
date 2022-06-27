@@ -43,7 +43,7 @@ public class monster_2_trigger : MonoBehaviour
         script.flash_camera.SetActive(true);
         script.player.SetActive(false);
         script.flash_sound.Play();
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(0.75f);
 
         script.flash_camera.SetActive(false);
         script.player.SetActive(true);
